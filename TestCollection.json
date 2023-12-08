@@ -24,6 +24,13 @@
 							"\r",
 							"});\r",
 							"\r",
+							"\r",
+							"pm.test(\"Id Attribute Include\", function(){\r",
+							"\r",
+							"pm.expect(Json.id).to.be.eql(\"77\");\r",
+							"\r",
+							"});\r",
+							"\r",
 							"pm.environment.set(\"UserId\", Json.id);"
 						],
 						"type": "text/javascript"
